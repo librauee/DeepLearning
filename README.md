@@ -20,6 +20,10 @@
 
 * 深度学习（花书）
 
+* TensorFlow实战
+
+* TensorFlow深度学习与编程实战
+
 
 
 

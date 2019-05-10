@@ -76,7 +76,7 @@ for j in range(10000):
         layer_2 = sigmoid(np.dot(layer_1, synapse_1)) #隐藏层*隐藏层到输出层的转化矩阵synapse_1->输出层
  
         layer_2_error = y - layer_2 #预测误差
-        layer_2_deltas.append((layer_2_error)*sigmoid_output_to_derivative(layer_2)) #把每一个时间点的误差倒数都记录下来
+        layer_2_deltas.append((layer_2_error)*sigmoid_output_to_derivative(layer_2)) #把每一个时间点的误差导数都记录下来
         overallError += np.abs(layer_2_error[0]) #总误差
  
         d[binary_dim - position -1] = np.round(layer_2[0][0]) #记录每一个预测bit位

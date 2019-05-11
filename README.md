@@ -18,7 +18,7 @@
    1. [构建一个神经网络](https://github.com/librauee/DeepLearning/blob/master/neural_network.py)
    2. [利用神经网络辨认手写数字0-9](https://github.com/librauee/DeepLearning/blob/master/handwritten_recognition.py)
 
-* 深度学习（花书）
+* [深度学习（花书）](https://github.com/exacity/deeplearningbook-chinese)
 
 * 神经网络和深度学习-Ng
     1. [网易云课堂](https://mooc.study.163.com/learn/2001281002)
@@ -47,6 +47,6 @@
 
 * TensorFlow深度学习与编程实战
 
-* TensorFlow入门、原理与进阶实战
+* [TensorFlow入门、原理与进阶实战](https://github.com/librauee/DeepLearning/tree/master/tensorflow_learning)
 
 

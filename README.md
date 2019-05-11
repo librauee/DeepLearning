@@ -4,8 +4,8 @@
 
 * CS231n课程学习  
    1. [斯坦福CS231n](https://study.163.com/course/introduction/1003223001.htm)
-   2. 官方翻译笔记
-   3. Homework
+   2. [官方翻译笔记](https://github.com/librauee/DeepLearning/tree/master/CS231_Documentary)
+   3. [Homework](https://github.com/librauee/DeepLearning/tree/master/CS231_Assignment)
    
 * 深度学习入门-基于Python的理论与实践
    1. 简单神经网络
@@ -15,14 +15,14 @@
    
 
 * Python神经网络编程
-   1. 构建一个神经网络
-   2. 利用神经网络辨认手写数字0-9
+   1. [构建一个神经网络](https://github.com/librauee/DeepLearning/blob/master/neural_network.py)
+   2. [利用神经网络辨认手写数字0-9](https://github.com/librauee/DeepLearning/blob/master/handwritten_recognition.py)
 
 * 深度学习（花书）
 
 * 神经网络和深度学习-Ng
     1. [网易云课堂](https://mooc.study.163.com/learn/2001281002)
-    2. Neural Networks and Deep Learning
+    2. [Neural Networks and Deep Learning](https://github.com/librauee/DeepLearning/tree/master/Ng_homework)
     * Week1　Introduction to deep learning
     * Week2　Neural Networks Basics
     * Week3　Shallow Neural networks
@@ -47,6 +47,6 @@
 
 * TensorFlow深度学习与编程实战
 
-
+* TensorFlow入门、原理与进阶实战
 
 

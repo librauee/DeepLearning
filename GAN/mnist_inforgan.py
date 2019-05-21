@@ -12,7 +12,7 @@ from scipy.stats import norm
 import tensorflow.contrib.slim as slim
 
 from tensorflow.examples.tutorials.mnist import input_data
-mnist=input_data.read_data_sets("MNIST_data/",one_hot=True)
+mnist=input_data.read_data_sets("MNIST_data/")
 
 tf.reset_default_graph()
 
@@ -124,8 +124,8 @@ with tf.Session() as sess:
             feeds = {x: batch_xs, y: batch_ys}
 
             # Fit training using batch data
-            l_disc, _, l_d_step = sess.run([loss_d, train_disc, disc_global_step],feeds)
-            l_gen, _, l_g_step = sess.run([loss_g, train_gen, gen_global_step],feeds)
+            l_disc, _, l_d_step = sess.run([loss_d, train_disc, disc_global_step],feed_dict=feeds)
+            l_gen, _, l_g_step = sess.run([loss_g, train_gen, gen_global_step],feed_dict=feeds)
 
         # 显示训练中的详细信息
         if epoch % display_step == 0:
